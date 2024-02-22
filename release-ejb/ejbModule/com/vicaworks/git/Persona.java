@@ -3,6 +3,8 @@
  */
 package com.vicaworks.git;
 
+import java.util.Date;
+
 /**
  * @author cristianvillarreal
  *
@@ -11,7 +13,14 @@ public class Persona {
 	
 	private String nombre;
 	private String identificacion;
+	private Date fechaNacimiento;
 	
+	public Date getFechaNacimiento() {
+		return fechaNacimiento;
+	}
+	public void setFechaNacimiento(Date fechaNacimiento) {
+		this.fechaNacimiento = fechaNacimiento;
+	}
 	public String getNombre() {
 		return nombre;
 	}
