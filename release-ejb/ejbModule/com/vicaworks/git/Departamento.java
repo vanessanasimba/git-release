@@ -11,7 +11,14 @@ public class Departamento {
 
 	private String nombre;
 	private String identificador;
+	private String sucursal;
 	
+	public String getSucursal() {
+		return sucursal;
+	}
+	public void setSucursal(String sucursal) {
+		this.sucursal = sucursal;
+	}
 	public String getNombre() {
 		return nombre;
 	}
