@@ -13,7 +13,6 @@ public class Carro {
 	private String marca;
 	
 	
-	
 	public String getPlaca() {
 		return placa;
 	}
