@@ -14,7 +14,14 @@ public class Persona {
 	private String nombre;
 	private String identificacion;
 	private Date fechaNacimiento;
+	private Departamento departamento;
 	
+	public Departamento getDepartamento() {
+		return departamento;
+	}
+	public void setDepartamento(Departamento departamento) {
+		this.departamento = departamento;
+	}
 	public Date getFechaNacimiento() {
 		return fechaNacimiento;
 	}
